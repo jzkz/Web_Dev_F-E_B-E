@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Js  Fundamentals - Strict Mode / Modern Mode</title>
+</head>
+<body>
+   //This is the wrong way for using strict mode know as Modern_Mode.
+   <script>
+  alert("Some Code");
+  // "use strict"; below is ignored-- it must be on the top
+
+  "use strict";
+   
+  //strict mode is not activared
+   </script>
+
+//This is the correct way for using strict mode.
+   <script>
+   "use strict";
+   //strict mode is activated
+   let a = 2+2;
+   alert(a);
+   
+   </script>
+</body>
+</html>
